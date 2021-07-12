@@ -18,8 +18,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common exTHm stuff
+$(call inherit-product, vendor/exthm/config/common_full_phone.mk)
 
 # Inherit from common.mk
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -27,10 +27,12 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := Sony
 PRODUCT_DEVICE := pdx201
 PRODUCT_MANUFACTURER := Sony
-PRODUCT_NAME := lineage_pdx201
-PRODUCT_MODEL := Xperia 10 II
+PRODUCT_NAME := exthm_pdx201
+PRODUCT_MODEL := XQ-AU52
 
 PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
+
+EXTHM_GAPPS := TRUE
 
 TARGET_VENDOR_PRODUCT_NAME := pdx201
 

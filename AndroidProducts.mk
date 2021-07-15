@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_pdx201.mk
+    $(LOCAL_DIR)/evolution_pdx201.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_pdx201-user \
-    lineage_pdx201-userdebug \
-    lineage_pdx201-eng
+    evolution_pdx201-user \
+    evolution_pdx201-userdebug \
+    evolution_pdx201-eng

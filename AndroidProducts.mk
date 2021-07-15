@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_pdx201.mk
+    $(LOCAL_DIR)/havoc_pdx201.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_pdx201-user \
-    evolution_pdx201-userdebug \
-    evolution_pdx201-eng
+    havoc_pdx201-user \
+    havoc_pdx201-userdebug \
+    havoc_pdx201-eng

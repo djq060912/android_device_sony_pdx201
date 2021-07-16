@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_pdx201.mk
+    $(LOCAL_DIR)/aosp_pdx201.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_pdx201-user \
-    havoc_pdx201-userdebug \
-    havoc_pdx201-eng
+    aosp_pdx201-user \
+    aosp_pdx201-userdebug \
+    aosp_pdx201-eng

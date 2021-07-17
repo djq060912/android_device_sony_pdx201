@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/exthm_pdx201.mk
+    $(LOCAL_DIR)/lineage_pdx201.mk
 
 COMMON_LUNCH_CHOICES := \
-    exthm_pdx201-user \
-    exthm_pdx201-userdebug \
-    exthm_pdx201-eng
+    lineage_pdx201-user \
+    lineage_pdx201-userdebug \
+    lineage_pdx201-eng

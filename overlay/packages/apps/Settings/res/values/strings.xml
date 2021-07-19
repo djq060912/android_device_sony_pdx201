@@ -18,4 +18,7 @@
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message">
         Locate the fingerprint sensor on the side of your phone.</string>
+  
+    <bool name="config_deviceSupportSmartCharging">true</bool>
+    <bool name="config_deviceSupportSmartCutoff">true</bool>
 </resources>
